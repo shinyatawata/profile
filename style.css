@@ -7,7 +7,7 @@ body {
   background-color: #faf9f9
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Abril Fatface'
 }
 
@@ -50,6 +50,13 @@ ul:hover {
 .img-circle {
   width: 100;
   margin: 16px;
+}
+
+.img-rectangle {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  object-position: 70% 23%;
 }
 
 .btn-green {
